@@ -5,8 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Day Planner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css"/>
+    
+
 </head>
 <body>
-    
+    <div class="jumbotron">
+    <h1>Day Planner</h1>
+        <h2>A simple calendar app for my work day schedule</h2>
+        <p id="currentdate"></p>
+    </div>
+    <div id="hour-9" class="row time-block">
+        <div class="col-md-1 hour">
+          9AM
+        </div>
+     <textarea class="col-md-10 description"> </textarea>
+    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button> 
+    </div>
+
+    <div id="hour-10" class="row time-block">
+            <div class="col-md-1 hour">
+              10AM
+            </div>
+         <textarea class="col-md-10 description"> </textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button> 
+        </div>
+
+        <div id="hour-11" class="row time-block">
+                <div class="col-md-1 hour">
+                  11AM
+                </div>
+             <textarea class="col-md-10 description"> </textarea>
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button> 
+            </div>
+        
+            <div id="hour-12" class="row time-block">
+                    <div class="col-md-1 hour">
+                      12AM
+                    </div>
+                 <textarea class="col-md-10 description"> </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button> 
+                </div>
+
+                <div id="hour-1" class="row time-block">
+                        <div class="col-md-1 hour">
+                          1PM
+                        </div>
+                     <textarea class="col-md-10 description"> </textarea>
+                    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button> 
+                    </div>
+                    <div id="hour-2" class="row time-block">
+                            <div class="col-md-1 hour">
+                              2PM
+                            </div>
+                         <textarea class="col-md-10 description"> </textarea>
+                        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button> 
+                        </div>
+
+
+<script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="./assets/script.js"></script>
 </body>
 </html>
